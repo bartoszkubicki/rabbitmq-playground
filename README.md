@@ -2,7 +2,7 @@
 
 A module shows how more advanced topologies could be built, using DLX and message-ttl. 
 Module shows example of topology with error fallback and retry mechanism. Additionally for entity.confirm and entity.cancel
-topics consumption of messages are delayed. In order to make it work, please apply our patches for magento modules and libraries. 
+topics consumption of messages are delayed.
 
 ## Getting Started
 
@@ -10,10 +10,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-* Magento 2.3/2.4
-* PHP 7.3/7.4
-* RabbitMQ 3.8.*
-* Apply [our patches](https://github.com/lizardmedia/magento2-mq-patches) for Magento Message Queue features.
+* Magento 2.4.7+ (tested against 2.4.8)
+* PHP 8.1/8.2/8.3
+* RabbitMQ 3.8+ (tested against 4.1)
+* No patches required. [bartoszkubicki/magento2-mq-patches](https://github.com/bartoszkubicki/magento2-mq-patches) previously listed here is now archived — the Magento Message Queue bugs it addressed were fixed upstream in Magento core (see that repo's README for details on which core version fixed each one).
 
 ### Installing
 
@@ -27,11 +27,13 @@ Simply run
 composer require lizardmedia/module-rabbitmq-playground
 ```
 
+This module depends on [bartoszkubicki/message-queue](https://github.com/bartoszkubicki/message-queue), which composer will resolve automatically.
+
 ##### Downloading ZIP
 
 Download a ZIP version of the module and unpack it into your project into
 ```
-app/code/LizardMedia/RabbitmqPlayground
+app/code/LizardMedia/RabbitMqPlayground
 ```
 If you use ZIP file you will need to install all dependencies of the module
 manually
@@ -41,7 +43,7 @@ manually
 
 Run this command
 ```
-bin/magento module:enable LizardMedia_RabbitmqPlayground
+bin/magento module:enable LizardMedia_RabbitMqPlayground
 bin/magento setup:upgrade
 ```
 
@@ -59,13 +61,13 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/lizardmedia/rabbitmq-playground/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/bartoszkubicki/rabbitmq-playground/tags). 
 
 ## Authors
 
-* **Bartosz Kubicki** - *Initial work, fixes & maintenance* - [Lizard Media](https://github.com/bartoszkubicki)
+* **Bartosz Kubicki** - *Initial work, fixes & maintenance* - [bartoszkubicki](https://github.com/bartoszkubicki)
 
-See also the list of [contributors](https://github.com/lizardmedia/rabbitmq-playground/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/bartoszkubicki/rabbitmq-playground/contributors) who participated in this project.
 
 ## License
 
