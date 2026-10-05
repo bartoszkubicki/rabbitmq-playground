@@ -1,5 +1,5 @@
 {
-    "name": "lizardmedia/module-rabbitmq-playground",
+    "name": "bartoszkubicki/rabbitmq-playground",
     "description": "Module testing rabbitmq implemention",
     "require": {
         "php": ">=8.1",
@@ -24,7 +24,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "LizardMedia\\RabbitMqPlayground\\": ""
+            "BartoszKubicki\\RabbitMqPlayground\\": ""
         }
     }
 }

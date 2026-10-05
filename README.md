@@ -1,4 +1,4 @@
-# Lizard Media RabbitMqPlayground #
+# RabbitMqPlayground #
 
 A module shows how more advanced topologies could be built, using DLX and message-ttl. 
 Module shows example of topology with error fallback and retry mechanism. Additionally for entity.confirm and entity.cancel
@@ -24,7 +24,7 @@ These instructions will get you a copy of the project up and running on your loc
 Simply run
 
 ```
-composer require lizardmedia/module-rabbitmq-playground
+composer require bartoszkubicki/rabbitmq-playground
 ```
 
 This module depends on [bartoszkubicki/message-queue](https://github.com/bartoszkubicki/message-queue), which composer will resolve automatically.
@@ -33,7 +33,7 @@ This module depends on [bartoszkubicki/message-queue](https://github.com/bartosz
 
 Download a ZIP version of the module and unpack it into your project into
 ```
-app/code/LizardMedia/RabbitMqPlayground
+app/code/BartoszKubicki/RabbitMqPlayground
 ```
 If you use ZIP file you will need to install all dependencies of the module
 manually
@@ -43,7 +43,7 @@ manually
 
 Run this command
 ```
-bin/magento module:enable LizardMedia_RabbitMqPlayground
+bin/magento module:enable BartoszKubicki_RabbitMqPlayground
 bin/magento setup:upgrade
 ```
 
