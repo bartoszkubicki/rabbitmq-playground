@@ -10,6 +10,6 @@ use Magento\Framework\Component\ComponentRegistrar;
 
 ComponentRegistrar::register(
     ComponentRegistrar::MODULE,
-    'BartoszKubicki_RabbitMqPlayground',
+    'BKubicki_RabbitMqPlayground',
     __DIR__
 );

@@ -6,11 +6,11 @@
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework-message-queue:etc/queue_consumer.xsd">
     <consumer name="CreateEntity" queue="create_entity" connection="amqp"
-              consumerInstance="BartoszKubicki\RabbitMqPlayground\Queue\Consumer\RetryConsumerHandler"
-              handler="BartoszKubicki\RabbitMqPlayground\Queue\ConsumerHandler\Entity\Failure::execute"/>
+              consumerInstance="BKubicki\RabbitMqPlayground\Queue\Consumer\RetryConsumerHandler"
+              handler="BKubicki\RabbitMqPlayground\Queue\ConsumerHandler\Entity\Failure::execute"/>
     <consumer name="ConfirmEntity" queue="confirm_entity" connection="amqp"
-              consumerInstance="BartoszKubicki\RabbitMqPlayground\Queue\Consumer\RetryConsumerHandler"
-              handler="BartoszKubicki\RabbitMqPlayground\Queue\ConsumerHandler\Entity\Success::execute"/>
+              consumerInstance="BKubicki\RabbitMqPlayground\Queue\Consumer\RetryConsumerHandler"
+              handler="BKubicki\RabbitMqPlayground\Queue\ConsumerHandler\Entity\Success::execute"/>
     <consumer name="Cancelentity" queue="cancel_entity" connection="amqp"
-              handler="BartoszKubicki\RabbitMqPlayground\Queue\ConsumerHandler\Entity\Success::execute"/>
+              handler="BKubicki\RabbitMqPlayground\Queue\ConsumerHandler\Entity\Success::execute"/>
 </config>

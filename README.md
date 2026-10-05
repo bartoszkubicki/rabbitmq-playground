@@ -24,16 +24,16 @@ These instructions will get you a copy of the project up and running on your loc
 Simply run
 
 ```
-composer require bartoszkubicki/rabbitmq-playground
+composer require bkubicki/rabbitmq-playground
 ```
 
-This module depends on [bartoszkubicki/message-queue](https://github.com/bartoszkubicki/message-queue), which composer will resolve automatically.
+This module depends on [bkubicki/message-queue](https://github.com/bartoszkubicki/message-queue), which composer will resolve automatically.
 
 ##### Downloading ZIP
 
 Download a ZIP version of the module and unpack it into your project into
 ```
-app/code/BartoszKubicki/RabbitMqPlayground
+app/code/BKubicki/RabbitMqPlayground
 ```
 If you use ZIP file you will need to install all dependencies of the module
 manually
@@ -43,7 +43,7 @@ manually
 
 Run this command
 ```
-bin/magento module:enable BartoszKubicki_RabbitMqPlayground
+bin/magento module:enable BKubicki_RabbitMqPlayground
 bin/magento setup:upgrade
 ```
 

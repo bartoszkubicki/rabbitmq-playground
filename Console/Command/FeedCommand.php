@@ -8,9 +8,9 @@ declare(strict_types=1);
  * @author Bartosz Kubicki
  */
 
-namespace BartoszKubicki\RabbitMqPlayground\Console\Command;
+namespace BKubicki\RabbitMqPlayground\Console\Command;
 
-use BartoszKubicki\RabbitMqPlayground\Model\Data\Entity;
+use BKubicki\RabbitMqPlayground\Model\Data\Entity;
 use Magento\Framework\Console\Cli;
 use Magento\Framework\MessageQueue\PublisherInterface;
 use Symfony\Component\Console\Command\Command;
@@ -19,7 +19,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 /**
  * Class MigrationCommand
- * @package BartoszKubicki\ReviewsDataMigration\Console\Command
+ * @package BKubicki\ReviewsDataMigration\Console\Command
  * @codeCoverageIgnore
  */
 class FeedCommand extends Command

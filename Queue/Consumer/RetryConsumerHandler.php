@@ -8,16 +8,16 @@ declare(strict_types=1);
  * @author Bartosz Kubicki
  */
 
-namespace BartoszKubicki\RabbitMqPlayground\Queue\Consumer;
+namespace BKubicki\RabbitMqPlayground\Queue\Consumer;
 
-use BartoszKubicki\MessageQueue\Api\Queue\Consumer\EnvelopeCallbackFactoryInterface;
-use BartoszKubicki\MessageQueue\Queue\Consumer\ConsumerWithInjectableEnvelopeCallback;
+use BKubicki\MessageQueue\Api\Queue\Consumer\EnvelopeCallbackFactoryInterface;
+use BKubicki\MessageQueue\Queue\Consumer\ConsumerWithInjectableEnvelopeCallback;
 use Magento\Framework\MessageQueue\CallbackInvokerInterface;
 use Magento\Framework\MessageQueue\ConsumerConfigurationInterface as UsedConsumerConfig;
 
 /**
  * Class RetryConsumerHandler
- * @package BartoszKubicki\RabbitMqPlayground\Queue\Consumer
+ * @package BKubicki\RabbitMqPlayground\Queue\Consumer
  * @codeCoverageIgnore
  */
 class RetryConsumerHandler extends ConsumerWithInjectableEnvelopeCallback

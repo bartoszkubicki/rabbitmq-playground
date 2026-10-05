@@ -8,11 +8,11 @@ declare(strict_types=1);
  * @author Bartosz Kubicki
  */
 
-namespace BartoszKubicki\RabbitMqPlayground\Model\Data;
+namespace BKubicki\RabbitMqPlayground\Model\Data;
 
 /**
  * Class Entity
- * @package BartoszKubicki\Model\Data\RabbitMqPlayground
+ * @package BKubicki\Model\Data\RabbitMqPlayground
  * @codeCoverageIgnore
  */
 class Entity

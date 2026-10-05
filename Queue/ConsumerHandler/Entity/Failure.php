@@ -8,15 +8,15 @@ declare(strict_types=1);
  * @author Bartosz Kubicki
  */
 
-namespace BartoszKubicki\RabbitMqPlayground\Queue\ConsumerHandler\Entity;
+namespace BKubicki\RabbitMqPlayground\Queue\ConsumerHandler\Entity;
 
-use BartoszKubicki\RabbitMqPlayground\Model\Data\Entity;
+use BKubicki\RabbitMqPlayground\Model\Data\Entity;
 use Psr\Log\LoggerInterface;
 use RuntimeException;
 
 /**
  * Class Failure
- * @package BartoszKubicki\RabbitMqPlayground\Queue\ConsumerHandler\Entity
+ * @package BKubicki\RabbitMqPlayground\Queue\ConsumerHandler\Entity
  * @codeCoverageIgnore
  */
 class Failure

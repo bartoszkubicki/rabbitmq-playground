@@ -5,7 +5,7 @@
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Communication/etc/communication.xsd">
-    <topic name="entity.create" request="BartoszKubicki\RabbitMqPlayground\Model\Data\Entity"/>
-    <topic name="entity.confirm" request="BartoszKubicki\RabbitMqPlayground\Model\Data\Entity"/>
-    <topic name="entity.cancel" request="BartoszKubicki\RabbitMqPlayground\Model\Data\Entity"/>
+    <topic name="entity.create" request="BKubicki\RabbitMqPlayground\Model\Data\Entity"/>
+    <topic name="entity.confirm" request="BKubicki\RabbitMqPlayground\Model\Data\Entity"/>
+    <topic name="entity.cancel" request="BKubicki\RabbitMqPlayground\Model\Data\Entity"/>
 </config>

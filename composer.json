@@ -1,9 +1,9 @@
 {
-    "name": "bartoszkubicki/rabbitmq-playground",
+    "name": "bkubicki/rabbitmq-playground",
     "description": "Module testing rabbitmq implemention",
     "require": {
         "php": ">=8.1",
-        "bartoszkubicki/message-queue": "1.0.*",
+        "bkubicki/message-queue": "1.0.*",
         "magento/framework-message-queue": "100.3.*||100.4.*",
         "magento/framework": "102.0.*||103.0.*"
     },
@@ -24,7 +24,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "BartoszKubicki\\RabbitMqPlayground\\": ""
+            "BKubicki\\RabbitMqPlayground\\": ""
         }
     }
 }

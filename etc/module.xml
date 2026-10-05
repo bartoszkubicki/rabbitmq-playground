@@ -6,9 +6,9 @@
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-    <module name="BartoszKubicki_RabbitMqPlayground">
+    <module name="BKubicki_RabbitMqPlayground">
         <sequence>
-            <module name="BartoszKubicki_MessageQueue"/>
+            <module name="BKubicki_MessageQueue"/>
         </sequence>
     </module>
 </config>
