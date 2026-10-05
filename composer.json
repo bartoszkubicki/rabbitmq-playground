@@ -7,15 +7,6 @@
         "magento/framework-message-queue": "100.3.*||100.4.*",
         "magento/framework": "102.0.*||103.0.*"
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../message-queue",
-            "options": {
-                "symlink": false
-            }
-        }
-    ],
     "type": "magento2-module",
     "license": "MIT",
     "autoload": {
