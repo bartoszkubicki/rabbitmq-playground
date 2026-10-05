@@ -5,13 +5,12 @@ declare(strict_types=1);
 /**
  * File: MigrationCommand.php
  *
- * @author Bartosz Kubicki bartosz.kubicki@lizardmedia.pl>
- * @copyright Copyright (C) 2020 Lizard Media (http://lizardmedia.pl)
+ * @author Bartosz Kubicki
  */
 
-namespace LizardMedia\RabbitMqPlayground\Console\Command;
+namespace BKubicki\RabbitMqPlayground\Console\Command;
 
-use LizardMedia\RabbitMqPlayground\Model\Data\Entity;
+use BKubicki\RabbitMqPlayground\Model\Data\Entity;
 use Magento\Framework\Console\Cli;
 use Magento\Framework\MessageQueue\PublisherInterface;
 use Symfony\Component\Console\Command\Command;
@@ -20,7 +19,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 /**
  * Class MigrationCommand
- * @package LizardMedia\ReviewsDataMigration\Console\Command
+ * @package BKubicki\ReviewsDataMigration\Console\Command
  * @codeCoverageIgnore
  */
 class FeedBufferCommand extends Command

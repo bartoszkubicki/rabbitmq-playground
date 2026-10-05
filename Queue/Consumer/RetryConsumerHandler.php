@@ -5,20 +5,19 @@ declare(strict_types=1);
 /**
  * File: RetryConsumerHandler.php
  *
- * @author Bartosz Kubicki bartosz.kubicki@lizardmedia.pl>
- * @copyright Copyright (C) 2020 Lizard Media (http://lizardmedia.pl)
+ * @author Bartosz Kubicki
  */
 
-namespace LizardMedia\RabbitMqPlayground\Queue\Consumer;
+namespace BKubicki\RabbitMqPlayground\Queue\Consumer;
 
-use LizardMedia\MessageQueue\Api\Queue\Consumer\EnvelopeCallbackFactoryInterface;
-use LizardMedia\MessageQueue\Queue\Consumer\ConsumerWithInjectableEnvelopeCallback;
+use BKubicki\MessageQueue\Api\Queue\Consumer\EnvelopeCallbackFactoryInterface;
+use BKubicki\MessageQueue\Queue\Consumer\ConsumerWithInjectableEnvelopeCallback;
 use Magento\Framework\MessageQueue\CallbackInvokerInterface;
 use Magento\Framework\MessageQueue\ConsumerConfigurationInterface as UsedConsumerConfig;
 
 /**
  * Class RetryConsumerHandler
- * @package LizardMedia\RabbitMqPlayground\Queue\Consumer
+ * @package BKubicki\RabbitMqPlayground\Queue\Consumer
  * @codeCoverageIgnore
  */
 class RetryConsumerHandler extends ConsumerWithInjectableEnvelopeCallback
